@@ -1,7 +1,7 @@
 import matplotlib.pyplot
 import numpy
 
-matplotlib.pyplot.rcParams['font.family'] = 'Calibri'
+matplotlib.pyplot.rcParams['font.family'] = 'DejaVu Sans'
 
 N = numpy.array([200, 400, 800, 1600, 2000])
 T = numpy.array([0.0045, 0.036, 0.2937, 2.5644, 4.9657])
