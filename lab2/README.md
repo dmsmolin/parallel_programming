@@ -13,11 +13,11 @@
 ### 3.1 `multmatrixOMP.cpp`
 - Добавлен заголовок `#include <omp.h>`, константа `const int NUM_THREADS`, вызов `omp_set_num_threads(NUM_THREADS)` и директива `#pragma omp parallel for` перед внешним циклом по `i`
 - Добавлен заголовок `#include <iomanip>` для фиксированного вывода и `setprecision(4)`
-- Запись результатов в файл `results.txt` вместо консоли
-- Переменная `double bestTime` содержит наименьшее время из 5 прогонов и записывает в `results.txt` только его
+- Запись результатов в формате `Size: NxN | Threads: N | Time: N sec` в файл `results.txt` вместо консоли
+- Переменная `double bestTime` содержит наименьшее время из 5 прогонов и записывает его в `results.txt`
 ### 3.2 `tests.py`
-- Используется `generate.py` и `verify.py`
-- Функция `numpy.random.randint` создаёт массив заданного пользователем размера, заполняя его случайными целыми числами в диапазоне (0-9)
+- Объединяет в себе функции из файлов `generate.py` и `verify.py`
+- Функция `numpy.random.randint`
 - Функция `numpy.savetxt` сохраняет массив в файл, записывая размер матрицы в первую строку с помощью параметра `header = str(n)`
 ## 4. Использование
 1. С помощью `generate.py` создаём два файла квадратных матриц: `matrix_a.txt` и `matrix_b.txt`, вводя размер в консоль
