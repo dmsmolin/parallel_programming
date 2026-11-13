@@ -1,0 +1,25 @@
+Size: 200x200 | Threads: 1 | Time: 0.0058 sec
+Size: 400x400 | Threads: 1 | Time: 0.0447 sec
+Size: 800x800 | Threads: 1 | Time: 0.3577 sec
+Size: 1200x1200 | Threads: 1 | Time: 1.2332 sec
+Size: 1600x1600 | Threads: 1 | Time: 2.9249 sec
+Size: 2000x2000 | Threads: 1 | Time: 5.9836 sec
+Size: 200x200 | Threads: 2 | Time: 0.0029 sec
+Size: 400x400 | Threads: 2 | Time: 0.0230 sec
+Size: 800x800 | Threads: 2 | Time: 0.1755 sec
+Size: 1200x1200 | Threads: 2 | Time: 0.6060 sec
+Size: 1600x1600 | Threads: 2 | Time: 1.4914 sec
+Size: 2000x2000 | Threads: 2 | Time: 2.9039 sec
+Size: 200x200 | Threads: 4 | Time: 0.0017 sec
+Size: 400x400 | Threads: 4 | Time: 0.0117 sec
+Size: 800x800 | Threads: 4 | Time: 0.0903 sec
+Size: 1200x1200 | Threads: 4 | Time: 0.3055 sec
+Size: 1600x1600 | Threads: 4 | Time: 0.7541 sec
+Size: 2000x2000 | Threads: 4 | Time: 1.4793 sec
+Size: 200x200 | Threads: 8 | Time: 0.0014 sec
+Size: 400x400 | Threads: 8 | Time: 0.0110 sec
+Size: 800x800 | Threads: 8 | Time: 0.0868 sec
+Size: 1200x1200 | Threads: 8 | Time: 0.2584 sec
+Size: 1600x1600 | Threads: 8 | Time: 0.6172 sec
+Size: 2000x2000 | Threads: 8 | Time: 1.1355 sec
+
