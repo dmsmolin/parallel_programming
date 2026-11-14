@@ -1,0 +1,24 @@
+P=1 | n=200 | time=0.00979114 sec | check=OK | verify_time=0.00997673 sec
+P=1 | n=400 | time=0.0705121 sec | check=OK | verify_time=0.131304 sec
+P=1 | n=800 | time=0.557765 sec | check=OK | verify_time=3.17473 sec
+P=1 | n=1200 | time=1.86817 sec | check=SKIP
+P=1 | n=1600 | time=4.14334 sec | check=SKIP
+P=1 | n=2000 | time=8.24338 sec | check=SKIP
+P=2 | n=200 | time=0.00581813 sec | check=OK | verify_time=0.0104591 sec
+P=2 | n=400 | time=0.0358889 sec | check=OK | verify_time=0.131834 sec
+P=2 | n=800 | time=0.281052 sec | check=OK | verify_time=3.18068 sec
+P=2 | n=1200 | time=0.936669 sec | check=SKIP
+P=2 | n=1600 | time=2.20358 sec | check=SKIP
+P=2 | n=2000 | time=4.24097 sec | check=SKIP
+P=4 | n=200 | time=0.00286484 sec | check=OK | verify_time=0.00967221 sec
+P=4 | n=400 | time=0.0190451 sec | check=OK | verify_time=0.12931 sec
+P=4 | n=800 | time=0.142896 sec | check=OK | verify_time=3.16089 sec
+P=4 | n=1200 | time=0.485666 sec | check=SKIP
+P=4 | n=1600 | time=1.19888 sec | check=SKIP
+P=4 | n=2000 | time=2.23907 sec | check=SKIP
+P=8 | n=200 | time=0.00154805 sec | check=OK | verify_time=0.00959781 sec
+P=8 | n=400 | time=0.0105481 sec | check=OK | verify_time=0.131186 sec
+P=8 | n=800 | time=0.0762899 sec | check=OK | verify_time=3.18826 sec
+P=8 | n=1200 | time=0.263846 sec | check=SKIP
+P=8 | n=1600 | time=0.61751 sec | check=SKIP
+P=8 | n=2000 | time=1.19394 sec | check=SKIP
