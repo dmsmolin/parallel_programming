@@ -42,7 +42,7 @@
 ## 4. Использование
 1. Создать с помощью `generate.py` файлы матриц, назвать их в формате `matrix_a200.txt`, ... , `matrix_a2000.txt`
 2. Поместить файлы матриц, `multmatrixMPI.cpp` и `job.sh` в одну директорию
-3. Скомпилировать код с помощью `mpiicpc -O2 -std=c++17 multmatrix_mpi.cpp -o multmatrix_mpi`
+3. Скомпилировать код с помощью `mpiicpc -O2 -std=c++17 multmatrixMPI.cpp -o multmatrix_mpi`
 4. Запустить тест с помощью `sbatch job.sh`, можно проверить статус: `squeue -u $USER`
 5. Дождаться выполнения, прочитать файл с результатами: `cat timing.txt`. При необходимости прочитать файлы с ошибками: `errors.txt`, `matrix_errors.err`
 ## 5. Результаты замеров
