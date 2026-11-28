@@ -4,5 +4,5 @@
 1. [Параллельная программа на языке C/C++ для перемножения двух квадратных матриц](https://github.com/dmsmolin/parallel_programming/tree/main/lab1) 
 2. [Модифицированная версия программы (OpenMP)](https://github.com/dmsmolin/parallel_programming/tree/main/lab2)
 3. [Модифицированная версия программы (MPI), запуск на суперкомпьютере](https://github.com/dmsmolin/parallel_programming/tree/main/lab3)
-4. Модифицированная версия программы (CUDA)
+4. [Модифицированная версия программы (CUDA)](https://github.com/dmsmolin/parallel_programming/tree/main/lab4)
 5. Программа на выбор из репозитория
